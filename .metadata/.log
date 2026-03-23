@@ -65,3 +65,114 @@ END
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2026-03-23 09:42:19.062
 !MESSAGE Started org.springframework.tooling.boot.ls LS process 17344
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-03-23 10:43:54.268
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-03-23 10:43:54.273
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-03-23 10:43:54.278
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-03-23 10:43:54.313
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-03-23 10:43:54.345
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-03-23 10:43:54.359
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-23 10:44:20.102
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-23 10:44:20.133
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-03-23 10:44:21.430
+!MESSAGE Classpath changed for project: infra-basic-deploy-lab
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-03-23 10:44:23.395
+!MESSAGE Classpath changed for project: infra-basic-deploy-lab
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-03-23 10:44:34.863
+!MESSAGE Classpath changed for project: infra-basic-deploy-lab
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-03-23 10:44:35.960
+!MESSAGE Classpath changed for project: infra-basic-deploy-lab
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-23 10:44:37.711
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-23 10:44:37.752
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-03-23 10:47:14.555
+!MESSAGE Classpath changed for project: infra-basic-deploy-lab
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-03-23 10:47:14.577
+!MESSAGE Boot project REMOVED: infra-basic-deploy-lab
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-03-23 10:47:14.621
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): infra-basic-deploy-lab does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2631)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2361)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2404)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-23 10:47:14.622
+!MESSAGE infra-basic-deploy-lab does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-03-23 10:47:14.628
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): infra-basic-deploy-lab does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2631)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2361)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2404)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-23 10:47:14.629
+!MESSAGE infra-basic-deploy-lab does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2026-03-23 10:47:14.641
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): infra-basic-deploy-lab does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2631)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2361)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2404)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:429)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2026-03-23 10:47:14.642
+!MESSAGE infra-basic-deploy-lab does not exist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-03-23 10:47:51.723
+!MESSAGE Classpath changed for project: infra-basic-deploy-lab
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-03-23 10:47:56.039
+!MESSAGE Classpath changed for project: infra-basic-deploy-lab
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-03-23 10:47:56.080
+!MESSAGE Boot project ADDED: infra-basic-deploy-lab
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-03-23 10:48:02.141
+!MESSAGE Classpath changed for project: infra-basic-deploy-lab
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-03-23 10:48:04.320
+!MESSAGE Classpath changed for project: infra-basic-deploy-lab

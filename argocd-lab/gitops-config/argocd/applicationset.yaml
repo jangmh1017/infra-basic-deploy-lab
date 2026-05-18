@@ -1,0 +1,30 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ApplicationSet
+metadata:
+  name: gitops-apps
+  namespace: argocd
+spec:
+  generators:
+    - list:
+        elements:
+          - env: dev
+          - env: prod
+  template:
+    metadata:
+      name: "spring-boot-{{env}}"
+      namespace: argocd
+    spec:
+      project: gitops-project
+      source:
+        repoURL: https://github.com/jangmh1017/gitops-config
+        targetRevision: main
+        path: apps/gitops-app/overlays/{{env}}
+      destination:
+        server: https://kubernetes.default.svc
+        namespace: gitops-app-{{env}}
+      syncPolicy:
+        automated:
+          prune: true
+          selfHeal: true
+        syncOptions:
+          - CreateNamespace=true

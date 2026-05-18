@@ -1,0 +1,22 @@
+apiVersion: kustomze.config.k8s.io/v1betal
+kind: Kustomization
+resources:
+  - ../../base
+namespace: gitops-app-dev
+namePrefix: prod-
+# commonLabels:
+#   env: prod
+labels:
+  - pairs:
+      app: gitops-app
+      env: prod
+    includeSelectors: true
+    includeTemplates: true
+images:
+  - name: gitops-app
+    newName: jangmh697/gitops-app
+    newTag: latest
+
+replicas:
+  - name: gitops-app
+    count: 3
